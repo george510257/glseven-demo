@@ -10,7 +10,7 @@ public class CombinationTest {
         Combination combination = new Combination("2", "9");
         String[] strings = combination.getAllLetters();
         for (String str : strings) {
-            System.out.print(str + ",");
+            System.out.print(str + " ");
         }
         Assert.assertEquals(strings.length, 3 * 4);
     }
@@ -20,7 +20,7 @@ public class CombinationTest {
         Combination combination = new Combination("2", "99");
         String[] strings = combination.getAllLetters();
         for (String str : strings) {
-            System.out.print(str + ",");
+            System.out.print(str + " ");
         }
         Assert.assertEquals(strings.length, 3 * 4 * 4);
     }
@@ -30,7 +30,7 @@ public class CombinationTest {
         Combination combination = new Combination("0", "2");
         String[] strings = combination.getAllLetters();
         for (String str : strings) {
-            System.out.print(str + ",");
+            System.out.print(str + " ");
         }
         Assert.assertEquals(strings.length, 1 * 3);
     }
